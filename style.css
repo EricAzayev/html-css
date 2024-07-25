@@ -1,0 +1,48 @@
+body{
+    height: 100%; /* Make sure the height is 100% of the viewport */
+    margin: 0;    /* Remove default margin */
+    padding: 0;   /* Remove default padding */
+    background-color: teal;
+    
+}
+
+h5[id="left-aligned"]{
+    display:flex;
+    justify-content: flex-start;
+}
+
+h5[id="right-aligned"]{
+    display:flex;
+    justify-content: flex-end;
+}
+h5[id="center-aligned"]{
+    display:flex;
+    justify-content: center;
+}
+h5[id="green-text"]{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 40px;
+    color: greenyellow;   
+}
+h5[id="white-text"]{
+    color: white;
+    font-family: 'arial';
+    font-size: 10px;
+}
+div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+img {
+    margin: 40px 0px 0px 0px;
+    border: 10px solid white;
+    border-radius: 20px;
+  }
+
+
+button{
+    padding: 10px 20px;
+    background-color: green;
+
+}
